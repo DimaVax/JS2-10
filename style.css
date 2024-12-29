@@ -1,0 +1,19 @@
+
+/* .img-anim{
+    transition: 1s;
+} */
+/* .text{
+    font-size: 60px;
+} */
+/* .text-anim{
+    transition: 5s; 
+} */
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    /* left: 20px; */
+    left: 0;
+}
