@@ -12,36 +12,36 @@ const setTimer = () => {
 // setTimer()
 
 // 2
-// const text = document.querySelector(".text");
-// const img = document.querySelector(".img");
-// const box = document.querySelector(".box");
+const text = document.querySelector(".text");
+const img = document.querySelector(".img");
+const box = document.querySelector(".box");
 
-// let textTime = 10;
-// const textAnim = setInterval(() => {
-//       text.style.fontSize = `${textTime}px`
-//       if(textTime === 38){
-//         textTime = 10
-//       }
-//   textTime += 4;
-// }, 500);
+let textTime = 10;
+const textAnim = setInterval(() => {
+      text.style.fontSize = `${textTime}px`
+      if(textTime === 38){
+        textTime = 10
+      }
+  textTime += 4;
+}, 500);
 
-// let imgTime = 10;
-// const imgAnim = setInterval(() => {
-//     img.style.transform = `rotate(${imgTime}deg)`
-//     if(imgTime === 38){
-//       imgTime = 10;
-//     }
-//     imgTime += 4;
-// ;}, 500);
+let imgTime = 10;
+const imgAnim = setInterval(() => {
+    img.style.transform = `rotate(${imgTime}deg)`
+    if(imgTime === 38){
+      imgTime = 10;
+    }
+    imgTime += 4;
+;}, 500);
 
-// let boxTime = 10;
-// const boxAnim = setInterval(() => {
-//   box.style.left = `${boxTime * 3}px`
-//   if(boxTime === 38){
-//     boxTime = 10
-//   }
-// boxTime += 4
-// }, 500);
+let boxTime = 10;
+const boxAnim = setInterval(() => {
+  box.style.left = `${boxTime * 3}px`
+  if(boxTime === 38){
+    boxTime = 10
+  }
+boxTime += 4
+}, 500);
 
 // 3
 const sigmaGif = document.querySelector("#sigma-gif");
